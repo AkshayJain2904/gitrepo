@@ -4,6 +4,10 @@ public class Book
 	private String title;
 	private String author;
 	private float price;
-
+	
+	public void setBookId(int bId)
+	{
+		this.bId=bId;	
+	}
 
 }
