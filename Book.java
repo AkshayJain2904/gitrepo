@@ -9,5 +9,17 @@ public class Book
 	{
 		this.bId=bId;	
 	}
+	public int getBookId()
+	{
+			return bId;
+	}
+	public void setTitle(String title)
+	{
+		this.title=title;
+	}
+	public int getTitle()
+	{
+			return title;
+	}
 
 }
